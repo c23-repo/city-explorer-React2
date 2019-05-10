@@ -1,3 +1,18 @@
+## Project
+City explorer front end with React. This is day 2 
+
+###
+Number and name of feature: scaffolding of components and props
+
+Estimate of time needed to complete: 3 hrs
+
+Start time: 10AM
+
+Finish time: 1PM
+
+Actual time needed to complete: 1:30 hrs
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
