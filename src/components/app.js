@@ -8,7 +8,7 @@ class App extends React.Component{
   constructor(props){
     super(props);
     this.state = {
-      location: {}
+      location: {},
      };
   }  
   newLocation = location => {
@@ -19,11 +19,12 @@ class App extends React.Component{
     return (
       <React.Fragment>
         <Header />
-        <SearchForm saveLocation={this.newLocation} />
-        <Map 
-          location={this.state.location}
-        />
-        <Result />
+        <main>
+          <SearchForm saveLocation={this.newLocation} />
+          <Map location={this.state.location} />
+          <Result {...this.state}/>
+          {/* <SearchResults {...this.state}/> */}
+        </main>
       </React.Fragment>
       );
   }
