@@ -12,6 +12,7 @@ class Result extends React.Component {
     console.log('props', this.props);
     return(
       <>
+      <div>
         <ul>
           <li> <DarkSky {...this.props} /> </li>
           <li> <Yelp {...this.props} /> </li>
@@ -19,6 +20,7 @@ class Result extends React.Component {
           <li> <MovieDB {...this.props} /> </li>
           <li> <Trails {...this.props} /> </li>
         </ul>
+      </div>
       </>
     );
   }  
