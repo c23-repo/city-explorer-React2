@@ -22,7 +22,9 @@ class App extends React.Component{
         <main>
           <SearchForm saveLocation={this.newLocation} />
           <Map location={this.state.location} />
-          <Result {...this.state}/>
+          <div>
+            <Result {...this.state}/>
+          </div>
           {/* <SearchResults {...this.state}/> */}
         </main>
       </React.Fragment>
